@@ -20,7 +20,7 @@ function checkUserSession() {
             // erasing the password
             if ($username == 'administrator' && $password == '....') {
                 
-                $_SESSION['flash'] = 'zeroday{fake_flag}'; // erasing flag
+                $_SESSION['flash'] = '{fake_flag}'; // erasing flag
                 header('Location: /flag');
                 exit;
             } else {

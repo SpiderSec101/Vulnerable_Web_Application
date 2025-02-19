@@ -23,7 +23,7 @@ def authenticate():
     filter = ['or', "'or", 'true', 'true--', '|', '>', '<', '/', '*', '#', 'not', 'is', 'false', 'false--', 'delete', 'update', 'insert', ';', 'and', "'and"]
         
 
-    query = "SELECT * FROM accounts WHERE user='admin" + username + "'AND password='" + password + "';"
+    query = "SELECT * FROM accounts WHERE user='spider" + username + "'AND password='" + password + "';"
 
     j = 0
     k = 0
@@ -35,7 +35,7 @@ def authenticate():
     password_new = password.strip()
 
 
-    if username_new.lower() == 'spider' and password_new == 'a_strong_password_goes_here':
+    if username_new.lower() == 'admin' and password_new == 'a_strong_password_goes_here':
         return 'your_flag_goes_here'
 
     else:

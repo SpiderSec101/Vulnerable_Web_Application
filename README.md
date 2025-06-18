@@ -6,3 +6,4 @@ I have created some of the vulnerable web application for best practices. I have
 * [JWT_bruteforce](https://github.com/SpiderSec101/Vulnerable_Web_Application/tree/main/JWT_bruteforce)
 * [SQLi_pro](https://github.com/SpiderSec101/Vulnerable_Web_Application/tree/main/SQLi_pro)
 * [HTTP_Methods](https://github.com/SpiderSec101/Vulnerable_Web_Application/tree/main/http_methods)
+* [Path_Traversal](https://github.com/SpiderSec101/Vulnerable_Web_Application/tree/main/Path_Traversal)
